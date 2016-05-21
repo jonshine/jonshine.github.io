@@ -86,7 +86,6 @@ a:after {
 	z-index: 10000;
 	overflow: visible;
 	font: normal 16px/24px  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-	padding-top:5px;
 }
 
 #section-topbar a {
@@ -189,7 +188,7 @@ a:after {
 
 #intro {
 	background: #2c3e50;
-	padding-top: 60px;
+	padding-top: 65px;
 	padding-bottom: 60px;
 	color: white;
 } 
@@ -208,7 +207,7 @@ a:after {
 
 #skillswrap {
 	background: #2c3e50;
-	padding-top: 60px;
+	padding-top: 65px;
 	padding-bottom: 60px;
 	color: white;
 }
