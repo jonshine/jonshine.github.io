@@ -48,6 +48,20 @@ a {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+a.first {
+	
+	color: #f85c37;
+    word-wrap: break-word;
+	display:inline-block;
+	
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+	
+}
+
 a:hover,
 a:focus {
     color: #7b7b7b;
