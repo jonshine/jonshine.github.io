@@ -168,7 +168,8 @@ a:after {
 
 /* Header Wrap */
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
+	/*background: url(../img/header-bg.jpg) no-repeat center top;*/
+	background: #34495e;
 	margin-top: 60px;
 	padding-top:140px;
 	text-align:center;
