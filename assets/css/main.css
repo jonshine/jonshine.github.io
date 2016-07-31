@@ -24,6 +24,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 
+h5 {
+	font-weight: bold;
+}
 
 /* Paragraph & Typographic */
 p {
@@ -254,6 +257,7 @@ a:after {
 
 #footwrap h5 {
 	color: white;
+	font-weight: bold;
 }
 
 
