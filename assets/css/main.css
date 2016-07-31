@@ -208,8 +208,13 @@ a:after {
 	color: white;
 } 
 
-#intro h5, p {
+#intro p {
 	color: white;
+}
+
+#intro h5 {
+	color: white;
+	font-weight: bold;
 }
 
 #intro i {
@@ -227,8 +232,14 @@ a:after {
 	color: white;
 }
 
-#skillswrap h5, p {
+#skillswrap h5{
 	color: white;
+	font-weight: bold;
+}
+
+#skillswrap h5 {
+	color: white;
+	font-weight: bold;
 }
 
 #footwrap {
