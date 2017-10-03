@@ -13,3 +13,5 @@ title: Helpful Links
 [Neighborhood Diversity Shiny Dashboard](https://walkerke.shinyapps.io/neighborhood_diversity/)
 
 [Hurricane Harvey by USGS](https://owi.usgs.gov/vizlab/hurricane-harvey/)
+
+[Houston Recovers: Harvey by the Numbers](https://houstonrecovers.org/numbers/)
