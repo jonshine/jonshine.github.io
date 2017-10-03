@@ -1,0 +1,9 @@
+name: "Learning R from Scratch"
+output_dir: "."
+navbar: 
+ title: "Learning R"
+ left: 
+  - text: "Homepage"
+    href: index.html
+  - text: "R Markdown"
+    href: rmarkdown.html
