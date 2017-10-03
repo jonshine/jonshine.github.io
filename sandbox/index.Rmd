@@ -4,6 +4,6 @@ title: "Learning R From Scratch"
 
 # Motivation
 
-It's hard to know where to start when learning a new language or tool. This is an attempt on my part to keep track of the lessons I learn while familarizing myself with R and learning how to distribute data visualizations online.
+It's hard to know where to start when learning a new language or tool. This is an attempt on my part to keep track of the lessons I learn while familiarizing myself with R and learning how to distribute data visualizations online.
 
-I have used R in the past for a handful of projects and assignments but it has never been my primary tool for analysis. After seeing the quality of visualizations delivered using R and the enthuiasim of the community, I want to at least familiarze myself with some of the packages that distinguish R from other tools.
+I have used R in the past for a handful of projects and assignments but it has never been my primary tool for analysis. After seeing the quality of visualizations delivered using R and the enthusiasm of the community, I want to at least familiarize myself with some of the packages that distinguish R from other tools.
