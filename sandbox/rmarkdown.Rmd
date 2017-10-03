@@ -11,4 +11,3 @@ title: 'Learning R Markdown'
 # How it works
 
 This is a page about rmarkdown.
-

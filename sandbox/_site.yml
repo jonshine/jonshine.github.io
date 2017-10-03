@@ -1,3 +1,5 @@
+# rmarkdown.rendersite()
+
 name: "Learning R from Scratch"
 output_dir: "."
 navbar: 
@@ -9,3 +11,6 @@ navbar:
     href: rmarkdown.html
   - text: "Links"  
     href: links.html
+output:
+  html_document:
+    theme: yeti
