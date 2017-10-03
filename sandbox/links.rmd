@@ -1,0 +1,6 @@
+---
+title: Helpful Links
+---
+
+[R Markdown Studio Lessons](http://rmarkdown.rstudio.com/lesson-1.html)
+[Markdown HTML Document Format](http://rmarkdown.rstudio.com/html_document_format.html)
