@@ -8,6 +8,8 @@ title: Helpful Links
 
 [Markdown HTML Document Format](http://rmarkdown.rstudio.com/html_document_format.html)
 
+[Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)
+
 # Example Dashboards I Like
 
 [Neighborhood Diversity Shiny Dashboard](https://walkerke.shinyapps.io/neighborhood_diversity/)
