@@ -1,0 +1,12 @@
+.navbar {
+	background-color: #002953;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color: #ffffff;
+	background-color: #b30838
+}
+
+.container>.navbar-header, .container-fluid-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse{
+	background-color: #002953;	
+}
