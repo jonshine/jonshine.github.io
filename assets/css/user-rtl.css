@@ -1,0 +1,19 @@
+/* prettier-ignore */
+::-moz-selection {
+  background-color: #8ebda3;
+  color: #fff;
+}
+::selection {
+  background-color: #8ebda3;
+  color: #fff;
+}
+
+a.text-cv-link {
+  color: #000000;
+  font-weight: 600;
+}
+a.text-cv-link:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=user-rtl.css.map */
