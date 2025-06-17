@@ -2727,4 +2727,3 @@ docReady(lightboxInit);
 docReady(cookieNoticeInit);
 docReady(bootstrapNavbarInit);
 docReady(preloaderInit);
-//# sourceMappingURL=theme.js.map
