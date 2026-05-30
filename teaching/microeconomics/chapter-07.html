@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html class="topnav" lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ===============================================--><!--    Document Title--><!-- ===============================================-->
+    <title>Utility Maximization | Microeconomics | Jon Carrasco</title>
+
+    <!-- ===============================================--><!--    Favicons--><!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="../../assets/img/favicons/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- ===============================================--><!--    Stylesheets--><!-- ===============================================-->
+    <link href="../../vendors/loaders.css/loaders.min.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono%7cPT+Serif:400,400i%7cLato:100,300,400,700,800,900" rel="stylesheet">
+    <link href="../../assets/css/theme.min.css" rel="stylesheet" />
+    <link href="../../assets/css/user.min.css" rel="stylesheet" />
+  </head>
+
+  <body class="overflow-hidden-x">
+
+    <nav class="fancynavbar fancynavbar-expand-lg fancynavbar-top" data-zanim-lg='{"from":{"opacity":1,"x":70},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}' data-zanim-xs='{"from":{"opacity":1,"y":-37},"to":{"opacity":1,"y":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}' data-zanim-trigger="scroll" data-exclusive="true">
+      <div class="fancynavbar-togglerbar" data-onscroll-fade-in="data-onscroll-fade-in"><a class="fancynavbar-brand" href="../../index.html"><img class="fancynavbar-brand-img" src="../../assets/img/jon_carrasco.svg" alt="" width="150" height="30" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll" />
+          <!--You can use icon or text logo as well--><!--<span class='fab fa-superpowers fs-6'></span>--><!--<span class='logo-sparrow'>S</span>--></a>
+        <div class="fancynavbar-toggler"><svg class="fancynavbar-toggler-icon" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.5}' data-zanim-trigger="scroll">
+            <path id="path-top" d="M20,25c0,0,22,0,30,0c16,0,18.89,40.71-.15,21.75C38.7,35.65,19.9,16.8,19.9,16.8"></path>
+            <path id="path-middle" d="M20,32h30"></path>
+            <path id="path-bottom" d="M19.9,46.98c0,0,18.8-18.85,29.95-29.95C68.89-1.92,66,38.78,50,38.78c-8,0-30,0-30,0"></path>
+          </svg></div>
+        <div class="fancynavbar-addon fancynavbar-addon-height" data-zanim-lg='{"from":{"opacity":1,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll"></div>
+      </div>
+      <div class="fancynavbar-collapse">
+        <ul class="fancynavbar-nav">
+          <li class="fancynav-item"><a class="fancynav-link" href="../../pages/analytics.html"><span class="fancynav-link-content">data analytics</span></a></li>
+          <li class="fancynav-item fancy-dropdown"><a class="fancynav-link fancy-dropdown-toggle" href="JavaScript:void(0)"><span class="fancynav-link-content">teaching</span></a>
+            <div class="fancy-dropdown-menu">
+              <div class="row pb-4 pt-3">
+                <div class="col-auto ps-2"><a class="fancy-dropdown-item" href="../../teaching/microeconomics.html"> Microeconomics</a><a class="fancy-dropdown-item" href="../../teaching/macroeconomics.html"> Macroeconomics</a></div>
+              </div>
+            </div>
+          </li>
+          <li class="fancynav-item"><a class="fancynav-link" href="../../pages/personal.html"><span class="fancynav-link-content">personal</span></a></li>
+          <li class="fancynav-item"><a class="fancynav-link" href="../../pages/about.html"><span class="fancynav-link-content">about me</span></a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <!-- ===============================================--><!--    Main Content--><!-- ===============================================-->
+    <main class="main min-vh-100" id="top">
+
+      <!-- ============================================--><!-- Preloader ==================================-->
+      <div class="preloader" id="preloader">
+        <div class="loader">
+          <div class="line-scale-pulse-out-rapid">
+            <div> </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div> </div>
+          </div>
+        </div>
+      </div><!-- ============================================--><!-- End of Preloader ===========================-->
+      <section class="py-0">
+        <div class="bg-holder overlay" style="background-image:url(../../assets/img/econ-micro.png);" data-zanim-xs='{"delay":0.4,"animation":"zoom-out"}' data-zanim-trigger="scroll"></div>
+        <div class="container">
+          <div class="row align-items-end min-vh-50">
+            <div class="col-lg-10 mb-6">
+              <div class="overflow-hidden">
+                <p class="text-white text-uppercase ls fs-10 mb-2 font-secondary" data-zanim-xs='{"delay":0.5}' data-zanim-trigger="scroll"><a class="text-white" href="../../teaching/microeconomics.html">Principles of Microeconomics</a><span class="mx-2">/</span>Chapter 7</p>
+              </div>
+              <div class="overflow-hidden">
+                <h2 class="text-white display-4 fs-6 fs-md-5" data-zanim-xs='{"delay":0.6}' data-zanim-trigger="scroll">Utility Maximization</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="mb-5"><a class="btn btn-xs btn-outline-secondary me-1 mb-1" href="#!">Utility</a><a class="btn btn-xs btn-outline-secondary me-1 mb-1" href="#!">Marginal Utility</a><a class="btn btn-xs btn-outline-secondary me-1 mb-1" href="#!">Diminishing Marginal Utility</a><a class="btn btn-xs btn-outline-secondary me-1 mb-1" href="#!">Budget Constraint</a><a class="btn btn-xs btn-outline-secondary me-1 mb-1" href="#!">Consumer Equilibrium</a><a class="btn btn-xs btn-outline-secondary me-1 mb-1" href="#!">Rational Behavior</a></div>
+              <div class="teaching-content font-secondary">
+                <h1>Utility Maximization</h1>
+                <p>Consumers allocate their limited income to maximize satisfaction. This chapter develops the theory of utility, how economists model preferences, and derives the law of demand from the consumer&#39;s optimization problem using marginal utility and budget constraints.</p>
+                <h2>Topics Covered</h2>
+                <ul>
+                  <li>Utility</li>
+                  <li>Marginal Utility</li>
+                  <li>Diminishing Marginal Utility</li>
+                  <li>Budget Constraint</li>
+                  <li>Consumer Equilibrium</li>
+                  <li>Rational Behavior</li>
+                </ul>
+                <hr>
+                <p><em>Content coming soon.</em></p>
+              </div>
+              <div class="row mt-8 pt-4 border-top border-light-subtle">
+                <div class="col-6">
+                  <p class="text-uppercase ls fw-bold fs-10 text-body-tertiary mb-1">Previous</p><a class="text-body-highlight fs-8" href="../../teaching/microeconomics/chapter-06.html"><span class="fas fa-arrow-left me-2 fs-10"></span>Elasticity</a>
+                </div>
+                <div class="col-6 text-end">
+                  <p class="text-uppercase ls fw-bold fs-10 text-body-tertiary mb-1">Next</p><a class="text-body-highlight fs-8" href="../../teaching/microeconomics/chapter-09.html">Businesses and the Costs of Production<span class="fas fa-arrow-right ms-2 fs-10"></span></a>
+                </div>
+              </div>
+              <div class="mt-6 text-center"><a class="btn btn-outline-secondary btn-sm" href="../../teaching/microeconomics.html"><span class="fas fa-th-large me-2"></span>All Chapters</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main><!-- ===============================================--><!--    End of Main Content--><!-- ===============================================-->
+
+
+
+    <!--===============================================--><!--    Footer--><!--===============================================-->
+    <footer class="footer bg-black text-body-secondary py-4 font-secondary text-center overflow-hidden">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 order-lg-2 position-relative"><a class="indicator indicator-up" href="#top"><span class="indicator-arrow indicator-arrow-one" data-zanim-xs='{"from":{"opacity":0,"y":15},"to":{"opacity":1,"y":-5,"scale":1},"ease":"Back.easeOut","duration":0.4,"delay":0.9}'></span><span class="indicator-arrow indicator-arrow-two" data-zanim-xs='{"from":{"opacity":0,"y":15},"to":{"opacity":1,"y":-5,"scale":1},"ease":"Back.easeOut","duration":0.4,"delay":1.05}'></span></a></div>
+          <div class="col-lg-4 text-lg-start mt-4 mt-lg-0">
+            <p class="fs-10 text-uppercase ls fw-bold mb-0">Jon Carrasco</p>
+          </div>
+          <div class="col-lg-4 text-lg-end order-lg-2 mt-2 mt-lg-0">
+            <p class="fs-10 text-uppercase ls fw-bold mb-0">Copyright &copy; 2026</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <!-- ===============================================--><!--    JavaScripts--><!-- ===============================================-->
+    <script src="../../vendors/popper/popper.min.js"></script>
+    <script src="../../vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="../../vendors/anchorjs/anchor.min.js"></script>
+    <script src="../../vendors/is/is.min.js"></script>
+    <script src="../../vendors/fontawesome/all.min.js"></script>
+    <script src="../../vendors/lodash/lodash.min.js"></script>
+    <script src="../../vendors/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="../../vendors/gsap/gsap.js"></script>
+    <script src="../../vendors/gsap/customEase.js"></script>
+    <script src="../../vendors/gsap/drawSVGPlugin.js"></script><!-- Global site tag (gtag.js) - Google Analytics-->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-122907869-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-122907869-1');
+    </script>
+    <script src="../../assets/js/theme.js"></script>
+  </body>
+
+</html>
