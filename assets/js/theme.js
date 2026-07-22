@@ -2034,8 +2034,25 @@ var lightboxInit = function lightboxInit() {
       var defaultOptions = {
         el: bpItem
       };
-      var options = window._.merge(defaultOptions, userOptions);
+      var isMainGallery = userOptions.gallery === '#projects-gallery';
       bpItem.addEventListener('click', function () {
+        var options = window._.merge({}, defaultOptions, userOptions);
+
+        // the main grid's gallery cycles through whatever category filter
+        // is currently active, instead of every photo on the page
+        if (isMainGallery) {
+          var activeFilter = document.querySelector('.isotope-nav.active');
+          var filter = (activeFilter === null || activeFilter === void 0 ? void 0 : activeFilter.dataset.filter) || '*';
+          var categorySelector = filter === '*' ? '.isotope-item' : ".isotope-item".concat(filter);
+          var filteredEls = Array.from(document.querySelectorAll("#projects-gallery ".concat(categorySelector, " > [data-bp]")));
+          options.gallery = filteredEls.map(function (galleryEl) {
+            return {
+              src: galleryEl.getAttribute('data-bp'),
+              caption: galleryEl.getAttribute('data-caption')
+            };
+          });
+          options.position = filteredEls.indexOf(bpItem);
+        }
         window.BigPicture(options);
       });
     });
