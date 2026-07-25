@@ -103,3 +103,8 @@ a.text-cv-link:hover {
     width: 230px;
   }
 }
+
+iframe.yt-video {
+  -webkit-transition: opacity 0.6s ease;
+  transition: opacity 0.6s ease;
+}
