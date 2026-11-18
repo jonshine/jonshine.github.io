@@ -1,0 +1,66 @@
+/* Wishlist page styles (layered on top of Sparrow theme.min.css) */
+
+/* Product photos come from many stores in many shapes, so show them
+   whole on a white square rather than cropping them. */
+.wl-img,
+.wl-placeholder {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  background: #fff;
+}
+
+.wl-spot-img {
+  display: block;
+  width: 100%;
+  height: 420px;
+  object-fit: contain;
+  background: #fff;
+  padding: 1.5rem;
+}
+
+.wl-hero-img {
+  display: block;
+  width: 100%;
+  max-height: 640px;
+  object-fit: contain;
+  background: #fff;
+  padding: 1.5rem;
+}
+
+.wl-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bs-light, #f5f5f5);
+  color: var(--bs-secondary-color, #999);
+  font-size: 3rem;
+}
+.wl-placeholder.wl-spot-img,
+.wl-placeholder.wl-hero-img {
+  height: 420px;
+  aspect-ratio: auto;
+}
+
+.wl-card a { color: inherit; }
+.wl-card a:hover h5 { text-decoration: underline; }
+.wl-card .badge-rotate { z-index: 2; }
+.wl-gifted { opacity: 0.55; }
+
+#wl-filters .nav-link { cursor: pointer; color: var(--bs-body-color); }
+#wl-filters .nav-link.active { font-weight: 700; text-decoration: underline; }
+
+/* Hero: festive dark gradient; swap in a photo by setting a
+   background-image on .bg-holder in index.html if you like. */
+#page-wishlist .bg-holder {
+  background-image: linear-gradient(135deg, #1b3a2b 0%, #0f1f17 55%, #5a1414 100%);
+}
+
+/* add.html helper */
+.wl-output {
+  font-family: "PT Mono", monospace;
+  font-size: 0.8rem;
+  min-height: 22rem;
+  white-space: pre;
+}
