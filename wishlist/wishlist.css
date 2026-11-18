@@ -51,11 +51,45 @@
 #wl-filters .nav-link { cursor: pointer; color: var(--bs-body-color); }
 #wl-filters .nav-link.active { font-weight: 700; text-decoration: underline; }
 
-/* Hero: festive dark gradient; swap in a photo by setting a
-   background-image on .bg-holder in index.html if you like. */
-#page-wishlist .bg-holder {
-  background-image: linear-gradient(135deg, #1b3a2b 0%, #0f1f17 55%, #5a1414 100%);
+/* Hero: holiday portrait with the title along the bottom.
+   The dark gradient keeps the white title readable; the dark green/red
+   fallback shows while the photo loads. To change the photo, replace
+   ../assets/img/wishlist/hero-family-portrait.jpg. */
+#page-wishlist {
+  display: flex;
+  align-items: flex-end;
+  min-height: min(56.3vw, 80vh);
+  background: #0f1f17;
 }
+#page-wishlist .bg-holder {
+  background-image:
+    linear-gradient(to top, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.35) 32%, rgba(0, 0, 0, 0) 55%),
+    url("../assets/img/wishlist/hero-family-portrait.jpg"),
+    linear-gradient(135deg, #1b3a2b 0%, #0f1f17 55%, #5a1414 100%);
+  background-size: cover;
+  background-position: center 30%;
+}
+@media (max-width: 767.98px) {
+  /* Phones: show the whole photo on top and put the title in a dark band
+     underneath, so it never covers the faces or pets. */
+  #page-wishlist {
+    display: block;
+    min-height: 0;
+    padding-top: 56.25vw !important;
+    background: linear-gradient(135deg, #1b3a2b 0%, #0f1f17 55%, #5a1414 100%);
+  }
+  #page-wishlist .bg-holder {
+    height: 56.25vw;
+    min-height: 0;
+    background-image: url("../assets/img/wishlist/hero-family-portrait.jpg");
+    background-position: center;
+  }
+  #page-wishlist .col-lg-9 { padding-top: 1.5rem !important; padding-bottom: 1.5rem !important; }
+}
+#page-wishlist .container { position: relative; z-index: 1; }
+#page-wishlist .col-lg-9 { padding-top: 5rem !important; }
+#page-wishlist h2,
+#page-wishlist h6 { text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6); }
 
 /* add.html helper */
 .wl-output {
