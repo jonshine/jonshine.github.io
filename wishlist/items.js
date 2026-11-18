@@ -92,15 +92,15 @@ window.WISHLIST = [
     "added": "2026-11-18"
   },
   {
-    "id": "madeira-17-oak-wood-salad-serving-bowl",
-    "title": "Madeira 17\" Oak Wood Salad Serving Bowl",
-    "url": "https://www.crateandbarrel.com/madeira-17-oak-wood-salad-serving-bowl/s147254",
+    "id": "madeira-17-walnut-finished-acacia-wood-salad-serving-bowl",
+    "title": "Madeira 17\" Walnut-Finished Acacia Wood Salad Serving Bowl",
+    "url": "https://www.crateandbarrel.com/madeira-17-walnut-finished-acacia-wood-salad-serving-bowl/s151945",
     "store": "Crate & Barrel",
-    "price": 55.96,
-    "image": "https://cb.scene7.com/is/image/Crate/MadeiraOakServeBwl17inSSF25?wid=800&fmt=jpg",
+    "price": 95.95,
+    "image": "https://cb.scene7.com/is/image/Crate/MadeiraWnAcServeBwl17inSSF25?wid=800&fmt=jpg",
     "category": "Entertaining",
     "priority": "high",
-    "summary": "Wide, shallow oak serving bowl for salads.",
+    "summary": "Wide, shallow walnut-finished acacia wood bowl for salads.",
     "details": [
       [
         "Size",
@@ -108,7 +108,7 @@ window.WISHLIST = [
       ],
       [
         "Finish",
-        "Oak"
+        "Walnut"
       ]
     ],
     "added": "2026-11-18"
@@ -235,18 +235,6 @@ window.WISHLIST = [
     "added": "2026-11-18"
   },
   {
-    "id": "nike-men-s-lightweight-training-shirts-browse",
-    "title": "Nike Men's Lightweight Training Shirts (any)",
-    "url": "https://www.nike.com/w/mens-training-gym-lightweight-short-sleeve-shirts-3k5ikz58jtoz6cb3pznik1",
-    "store": "Nike",
-    "image": "",
-    "category": "Apparel",
-    "priority": "nice",
-    "summary": "Any of the lightweight short-sleeve training shirts on this page.",
-    "notes": "Size: Medium",
-    "added": "2026-11-18"
-  },
-  {
     "id": "nike-rise-365-men-s-dri-fit-running-top",
     "title": "Nike Rise 365 Men's Dri-FIT Running Top",
     "url": "https://www.nike.com/t/rise-365-mens-dri-fit-short-sleeve-running-top-rPq09C/CZ9184-084",
@@ -301,17 +289,6 @@ window.WISHLIST = [
         "10 x 6 x 6 in"
       ]
     ],
-    "added": "2026-11-18"
-  },
-  {
-    "id": "penzeys-spices-browse",
-    "title": "Penzeys Spices (any)",
-    "url": "https://www.penzeys.com/shop/spices/?categoryId=166",
-    "store": "Penzeys",
-    "image": "",
-    "category": "Pantry",
-    "priority": "nice",
-    "summary": "A gift card or any spices from Penzeys are always welcome.",
     "added": "2026-11-18"
   },
   {
@@ -378,17 +355,6 @@ window.WISHLIST = [
     "category": "Home & Holiday",
     "priority": "high",
     "summary": "Weather-proof powder-coated metal yard flag stand with clip and stopper.",
-    "added": "2026-11-18"
-  },
-  {
-    "id": "pottery-barn-outdoor-lighting-browse",
-    "title": "Pottery Barn Outdoor Lighting (any)",
-    "url": "https://www.potterybarn.com/shop/lighting/outdoor-lighting-string-lights/",
-    "store": "Pottery Barn",
-    "image": "",
-    "category": "Home & Holiday",
-    "priority": "nice",
-    "summary": "Anything from Pottery Barn's outdoor and string lighting collection.",
     "added": "2026-11-18"
   },
   {
@@ -527,6 +493,178 @@ window.WISHLIST = [
       [
         "Fit",
         "Athletic"
+      ]
+    ],
+    "added": "2026-11-18"
+  },
+  {
+    "id": "rustic-metal-flower-wind-spinner-kinetic-garden-sculpture",
+    "title": "Rustic Metal Flower Wind Spinner, Kinetic Garden Sculpture",
+    "url": "https://www.etsy.com/listing/4601336149/rustic-metal-flower-wind-spinner-kinetic",
+    "store": "Etsy",
+    "image": "",
+    "category": "Home & Holiday",
+    "priority": "high",
+    "summary": "Kinetic metal flower wind spinner for the yard.",
+    "added": "2026-11-18"
+  },
+  {
+    "id": "twist-bloom-metal-flower-wind-spinner",
+    "title": "Twist & Bloom Metal Flower Wind Spinner",
+    "url": "https://www.etsy.com/listing/4574297351/twist-bloom-metal-flower-wind-spinner",
+    "store": "Etsy",
+    "image": "",
+    "category": "Home & Holiday",
+    "priority": "high",
+    "summary": "Rustic metal flower wind spinner for the yard.",
+    "added": "2026-11-18"
+  },
+  {
+    "id": "adafruit-qt-py-esp32-s2-wifi-dev-board-with-stemma-qt",
+    "title": "Adafruit QT Py ESP32-S2 WiFi Dev Board with STEMMA QT",
+    "url": "https://www.adafruit.com/product/5325",
+    "store": "Adafruit",
+    "price": 12.5,
+    "image": "https://cdn-shop.adafruit.com/970x728/5325-12.jpg",
+    "category": "Tech",
+    "priority": "high",
+    "summary": "Tiny Wi-Fi board that will be the brain of my house environmental sensor.",
+    "notes": "Part of a DIY environmental sensor for the house I'd love to build. This board reads all the sensors over STEMMA QT and sends the data over Wi-Fi.",
+    "details": [
+      [
+        "Processor",
+        "ESP32-S2, 240 MHz, 2.4 GHz Wi-Fi"
+      ],
+      [
+        "Memory",
+        "4 MB flash, 2 MB PSRAM"
+      ],
+      [
+        "Connector",
+        "USB-C and STEMMA QT"
+      ]
+    ],
+    "added": "2026-11-18"
+  },
+  {
+    "id": "adafruit-scd-41-true-co2-temperature-and-humidity-sensor",
+    "title": "Adafruit SCD-41 True CO2, Temperature and Humidity Sensor",
+    "url": "https://www.adafruit.com/product/5190",
+    "store": "Adafruit",
+    "price": 49.95,
+    "image": "https://cdn-shop.adafruit.com/970x728/5190-06.jpg",
+    "category": "Tech",
+    "priority": "high",
+    "summary": "Measures CO2, temperature, and humidity for my house environmental sensor.",
+    "notes": "Part of a DIY environmental sensor for the house I'd love to build. Tracks indoor CO2 so I can see when a room needs fresh air. STEMMA QT / Qwiic version.",
+    "details": [
+      [
+        "Measures",
+        "CO2, temperature, humidity"
+      ],
+      [
+        "CO2 range",
+        "400 to 5000 ppm"
+      ],
+      [
+        "Interface",
+        "I2C (STEMMA QT / Qwiic)"
+      ]
+    ],
+    "added": "2026-11-18"
+  },
+  {
+    "id": "adafruit-pmsa003i-air-quality-breakout",
+    "title": "Adafruit PMSA003I Air Quality Breakout",
+    "url": "https://www.adafruit.com/product/4632",
+    "store": "Adafruit",
+    "price": 44.95,
+    "image": "https://cdn-shop.adafruit.com/970x728/4632-10.jpg",
+    "category": "Tech",
+    "priority": "high",
+    "summary": "Particulate sensor for air quality in my house environmental sensor.",
+    "notes": "Part of a DIY environmental sensor for the house I'd love to build. Measures dust and smoke particles (PM1.0, PM2.5, PM10). STEMMA QT / Qwiic version.",
+    "details": [
+      [
+        "Measures",
+        "PM1.0, PM2.5, PM10"
+      ],
+      [
+        "Interface",
+        "I2C (STEMMA QT / Qwiic)"
+      ]
+    ],
+    "added": "2026-11-18"
+  },
+  {
+    "id": "adafruit-bme280-i2c-or-spi-temperature-humidity-pressure-sensor",
+    "title": "Adafruit BME280 I2C or SPI Temperature Humidity Pressure Sensor",
+    "url": "https://www.adafruit.com/product/2652",
+    "store": "Adafruit",
+    "price": 14.95,
+    "image": "https://cdn-shop.adafruit.com/970x728/2652-04.jpg",
+    "category": "Tech",
+    "priority": "high",
+    "summary": "Temperature, humidity, and barometric pressure for my house environmental sensor.",
+    "notes": "Part of a DIY environmental sensor for the house I'd love to build. The STEMMA QT version, so no soldering is needed to connect it.",
+    "details": [
+      [
+        "Measures",
+        "Temperature, humidity, pressure"
+      ],
+      [
+        "Interface",
+        "I2C or SPI (STEMMA QT)"
+      ]
+    ],
+    "added": "2026-11-18"
+  },
+  {
+    "id": "gravity-analog-decibel-meter-for-arduino",
+    "title": "Gravity: Analog Decibel Meter for Arduino",
+    "url": "https://www.dfrobot.com/product-1663.html",
+    "store": "DFRobot",
+    "price": 39.5,
+    "image": "https://dfimg.dfrobot.com/enshop/image/data/SEN0232/SEN0232_Main_01.jpg",
+    "category": "Tech",
+    "priority": "high",
+    "summary": "Sound level sensor for my house environmental sensor.",
+    "notes": "Part of a DIY environmental sensor for the house I'd love to build. Adds noise level (dBA) to the readings.",
+    "details": [
+      [
+        "Range",
+        "30 to 130 dBA"
+      ],
+      [
+        "Output",
+        "Analog voltage, 0.6 to 2.6 V"
+      ]
+    ],
+    "added": "2026-11-18"
+  },
+  {
+    "id": "x-tronic-3020-xts-75w-soldering-iron-station",
+    "title": "The Original X-Tronic 3020-XTS 75W Soldering Iron Station",
+    "url": "https://www.amazon.com/dp/B01DGZFSNE",
+    "store": "Amazon",
+    "price": 54.75,
+    "image": "../assets/img/wishlist/x-tronic-3020-xts.jpg",
+    "category": "Tech",
+    "priority": "high",
+    "summary": "Soldering station for assembling my house environmental sensor.",
+    "notes": "Style: Classic Style, 1 Solder Tip. Needed for the house environmental sensor project: together with the Adafruit boards, sensors, and decibel meter, it makes the whole build possible.",
+    "details": [
+      [
+        "Power",
+        "75W"
+      ],
+      [
+        "Includes",
+        "LED display, 2 helping hands, solder, brass sponge with cleaning flux, wet sponge"
+      ],
+      [
+        "Features",
+        "°C/°F switch, 10 minute sleep"
       ]
     ],
     "added": "2026-11-18"
