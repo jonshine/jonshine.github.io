@@ -45,23 +45,51 @@
 
 .wl-card a { color: inherit; }
 .wl-card a:hover h5 { text-decoration: underline; }
-.wl-card .badge-rotate { z-index: 2; }
+/* Corner sash: a band that runs edge to edge across the top-left corner.
+   The image box clips it (overflow-hidden), so both ends meet the card edges. */
+.wl-card .badge-rotate {
+  z-index: 2;
+  left: 1.6rem;
+  top: 1.6rem;
+  width: 12rem;
+  padding: 0.3rem 0;
+  border-radius: 0;
+  text-align: center;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
 .wl-gifted { opacity: 0.55; }
 
 #wl-filters .nav-link { cursor: pointer; color: var(--bs-body-color); }
 #wl-filters .nav-link.active { font-weight: 700; text-decoration: underline; }
 
+/* Category headings in the "category" sort */
+.wl-cat-head {
+  margin-top: 4.5rem;
+  /* the cards below carry their own top margin; pull them up a bit */
+  margin-bottom: -1.5rem;
+}
+.wl-cat-head h3 {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.wl-cat-head:first-child { margin-top: 3rem; }
+
 /* Hero: holiday portrait with the title along the bottom.
    The dark gradient keeps the white title readable; the dark green/red
    fallback shows while the photo loads. To change the photo, replace
-   ../assets/img/wishlist/hero-family-portrait.jpg. */
+   ../assets/img/wishlist/hero-family-portrait.jpg.
+   The photo starts below the fixed 3rem nav bar so the bar never
+   covers anyone's head. */
 #page-wishlist {
   display: flex;
   align-items: flex-end;
-  min-height: min(56.3vw, 80vh);
-  background: #0f1f17;
+  min-height: calc(min(56.3vw, 80vh) + 3rem);
+  background: #000;
 }
 #page-wishlist .bg-holder {
+  top: 3rem;
+  height: calc(100% - 3rem);
+  min-height: 0;
   background-image:
     linear-gradient(to top, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.35) 32%, rgba(0, 0, 0, 0) 55%),
     url("../assets/img/wishlist/hero-family-portrait.jpg"),
@@ -70,13 +98,22 @@
   background-position: center 30%;
 }
 @media (max-width: 767.98px) {
-  /* Phones: show the whole photo on top and put the title in a dark band
-     underneath, so it never covers the faces or pets. */
+  /* Phones: show the whole photo on top and put the title in a band
+     underneath, so it never covers the faces or pets. The band is the
+     red of the sweater in the photo, with a green sweater-colored line
+     along its top and bottom. */
   #page-wishlist {
+    --wl-band-red: #c11c1e;
+    --wl-band-green: #0e5c37;
+    --wl-band-line: 6px;
     display: block;
     min-height: 0;
-    padding-top: 56.25vw !important;
-    background: linear-gradient(135deg, #1b3a2b 0%, #0f1f17 55%, #5a1414 100%);
+    padding-top: calc(56.25vw + 3rem) !important;
+    background:
+      linear-gradient(var(--wl-band-green), var(--wl-band-green)) 0 calc(56.25vw + 3rem) / 100% var(--wl-band-line) no-repeat,
+      linear-gradient(var(--wl-band-green), var(--wl-band-green)) 0 100% / 100% var(--wl-band-line) no-repeat,
+      linear-gradient(var(--wl-band-red), var(--wl-band-red)) 0 3rem / 100% calc(100% - 3rem) no-repeat,
+      #000;
   }
   #page-wishlist .bg-holder {
     height: 56.25vw;
@@ -87,7 +124,11 @@
   #page-wishlist .col-lg-9 { padding-top: 1.5rem !important; padding-bottom: 1.5rem !important; }
 }
 #page-wishlist .container { position: relative; z-index: 1; }
-#page-wishlist .col-lg-9 { padding-top: 5rem !important; }
+@media (min-width: 768px) {
+  /* Desktop only: room above the title over the photo. On phones the
+     band above uses equal top and bottom padding. */
+  #page-wishlist .col-lg-9 { padding-top: 5rem !important; }
+}
 #page-wishlist h2,
 #page-wishlist h6 { text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6); }
 

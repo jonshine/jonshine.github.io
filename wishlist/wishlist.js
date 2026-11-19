@@ -76,6 +76,13 @@
   function sortItems(list, mode) {
     var copy = list.slice();
     copy.sort(function (a, b) {
+      // by category: A to Z, uncategorized last; within each category,
+      // gifted items sink and the rest go most wanted first
+      if (mode === "category") {
+        var ca = a.category || "";
+        var cb = b.category || "";
+        if (ca !== cb) return !ca ? 1 : !cb ? -1 : ca.localeCompare(cb);
+      }
       // gifted items always sink to the bottom
       if (!!a.gifted !== !!b.gifted) return a.gifted ? 1 : -1;
       if (mode === "price-asc") return (Number(a.price) || Infinity) - (Number(b.price) || Infinity);
@@ -196,16 +203,34 @@
           .join("");
     }
 
-    var state = { filter: "*", sort: "priority" };
+    var sortSel = document.getElementById("wl-sort");
+    var state = { filter: "*", sort: sortSel ? sortSel.value : "category" };
     var grid = document.getElementById("wl-grid");
     var count = document.getElementById("wl-count");
+
+    // Heading row above each category's items in the "category" sort
+    function categoryHeading(name) {
+      return (
+        '<div class="col-12 wl-cat-head"><h3 class="fs-8 mb-0 font-secondary">' +
+        esc((name || "other").toLowerCase()) + "</h3></div>"
+      );
+    }
 
     function draw() {
       var list = sortItems(ITEMS, state.sort).filter(function (i) {
         return state.filter === "*" || i.category === state.filter;
       });
+      var grouped = state.sort === "category" && state.filter === "*";
+      var html = "";
+      var lastCat = null;
+      list.forEach(function (item) {
+        var cat = item.category || "";
+        if (grouped && cat !== lastCat) html += categoryHeading(cat);
+        lastCat = cat;
+        html += card(item);
+      });
       grid.innerHTML = list.length
-        ? list.map(card).join("")
+        ? html
         : '<div class="col-12 mt-6 text-center text-body-tertiary">Nothing here yet.</div>';
       if (count) count.textContent = list.length + (list.length === 1 ? " item" : " items");
     }
@@ -221,7 +246,6 @@
         draw();
       });
     }
-    var sortSel = document.getElementById("wl-sort");
     if (sortSel) {
       sortSel.addEventListener("change", function () {
         state.sort = sortSel.value;

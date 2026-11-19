@@ -51,7 +51,7 @@ window.WISHLIST = [
     "price": 34.95,
     "image": "https://cb.scene7.com/is/image/Crate/FrenchKchMrblCvrdBttrDshSSF21?wid=800&fmt=jpg",
     "category": "Kitchen",
-    "priority": "high",
+    "priority": "nice",
     "summary": "White marble base with a glass dome; holds a half cup of butter.",
     "added": "2026-11-18"
   },
@@ -63,7 +63,7 @@ window.WISHLIST = [
     "price": 97.96,
     "image": "https://cb.scene7.com/is/image/Crate/TuscanMarbleRiserS2SSS26?wid=800&fmt=jpg",
     "category": "Entertaining",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Beige Tuscan marble rounds on stainless steel bases, two heights.",
     "added": "2026-11-18"
   },
@@ -75,7 +75,7 @@ window.WISHLIST = [
     "price": 79.95,
     "image": "https://cb.scene7.com/is/image/Crate/CarsonWoodPedSrvWDomeSHS18?wid=800&fmt=jpg",
     "category": "Entertaining",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Acacia wood pedestal with a glass dome for cakes, cheese, and desserts.",
     "added": "2026-11-18"
   },
@@ -87,7 +87,7 @@ window.WISHLIST = [
     "price": 47.95,
     "image": "https://cb.scene7.com/is/image/Crate/OrchardWdn14inRdSrvBrdSSF25?wid=800&fmt=jpg",
     "category": "Entertaining",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Footed mango wood board for cheese, charcuterie, or desserts.",
     "added": "2026-11-18"
   },
@@ -99,7 +99,7 @@ window.WISHLIST = [
     "price": 95.95,
     "image": "https://cb.scene7.com/is/image/Crate/MadeiraWnAcServeBwl17inSSF25?wid=800&fmt=jpg",
     "category": "Entertaining",
-    "priority": "high",
+    "priority": "top",
     "summary": "Wide, shallow walnut-finished acacia wood bowl for salads.",
     "details": [
       [
@@ -121,7 +121,7 @@ window.WISHLIST = [
     "price": 49.95,
     "image": "https://cb.scene7.com/is/image/Crate/TscnKtchnMrblPlttr1AVSSF26?wid=800&fmt=jpg",
     "category": "Entertaining",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Round beige marble platter for cheese or charcuterie.",
     "details": [
       [
@@ -139,7 +139,7 @@ window.WISHLIST = [
     "price": 47.95,
     "image": "https://cb.scene7.com/is/image/Crate/MadeiraWnAcServeBwl14inSSF25?wid=800&fmt=jpg",
     "category": "Entertaining",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Wide, shallow acacia serving bowl in a walnut finish.",
     "details": [
       [
@@ -162,7 +162,7 @@ window.WISHLIST = [
     "price": 79.95,
     "image": "https://cb.scene7.com/is/image/Crate/FrenchKitchenLazySusanSSS20?wid=800&fmt=jpg",
     "category": "Entertaining",
-    "priority": "high",
+    "priority": "top",
     "summary": "White marble spinning server for desserts, snacks, and dips.",
     "added": "2026-11-18"
   },
@@ -174,7 +174,7 @@ window.WISHLIST = [
     "price": 3.95,
     "image": "https://cb.scene7.com/is/image/Crate/GlassPrepBowl2SSF24?wid=800&fmt=jpg",
     "category": "Kitchen",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Stackable glass bowls for mise en place.",
     "added": "2026-11-18",
     "qty": 6,
@@ -188,7 +188,7 @@ window.WISHLIST = [
     "price": 44.95,
     "image": "https://cb.scene7.com/is/image/Crate/AspnCpStnwrMxgSvgBwlsS4SSF26?wid=800&fmt=jpg",
     "category": "Kitchen",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Nesting stoneware bowls with a clean coupe shape.",
     "added": "2026-11-18"
   },
@@ -200,7 +200,7 @@ window.WISHLIST = [
     "price": 27,
     "image": "https://cb2.scene7.com/is/image/CB2/MoriMatteWhiteChipNDipS2AVSHS25?wid=800&fmt=jpg",
     "category": "Entertaining",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Oval platter and dip bowl in a hand-applied matte white glaze.",
     "added": "2026-11-18"
   },
@@ -212,7 +212,7 @@ window.WISHLIST = [
     "price": 27,
     "image": "https://cb2.scene7.com/is/image/CB2/DriftIvryCkStdMttRctvGlzSHF26?wid=800&fmt=jpg",
     "category": "Entertaining",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Stoneware cake stand with a crackled ivory glaze.",
     "added": "2026-11-18"
   },
@@ -224,7 +224,7 @@ window.WISHLIST = [
     "price": 119,
     "image": "https://cb2.scene7.com/is/image/CB2/BrassReindeerSmallHolSHF26?wid=800&fmt=jpg",
     "category": "Home & Holiday",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Unlacquered brass reindeer that develops a patina over time.",
     "details": [
       [
@@ -242,7 +242,7 @@ window.WISHLIST = [
     "price": 55,
     "image": "https://static.nike.com/a/images/t_default/fe8af39f-8246-40ab-ab7a-739538296c8a/M+NK+DF+RISE+365+SS.png",
     "category": "Apparel",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Short-sleeve Dri-FIT running top.",
     "notes": "Color as linked (style CZ9184-084). Size: Medium",
     "added": "2026-11-18"
@@ -255,7 +255,7 @@ window.WISHLIST = [
     "price": 26.97,
     "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8a8db8e2-13eb-4572-9ce9-8659ab63dd9b/M+NK+DF+TEE+DFC+CREW+SOLID.png",
     "category": "Apparel",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Everyday Dri-FIT crew tee.",
     "notes": "Color as linked (style AR6029-010). Size: Medium",
     "added": "2026-11-18"
@@ -268,7 +268,7 @@ window.WISHLIST = [
     "price": 32,
     "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e626672f-9503-4df3-a157-213c417b8fb3/M+NK+DF+TEE+RLGD+RESET.png",
     "category": "Apparel",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Dri-FIT Legend training tee.",
     "notes": "Color as linked (style DX0989-451). Size: Medium",
     "added": "2026-11-18"
@@ -281,7 +281,7 @@ window.WISHLIST = [
     "price": 99.99,
     "image": "https://www.laurelmercantile.com/cdn/shop/files/Leather-Dopp-Kit-00001.webp?v=1774964778",
     "category": "Accessories",
-    "priority": "high",
+    "priority": "top",
     "summary": "Handmade in Mississippi from premium leather with solid brass hardware.",
     "details": [
       [
@@ -298,7 +298,7 @@ window.WISHLIST = [
     "store": "Penzeys",
     "image": "https://www.penzeys.com/media/1981/fox_point_pot.jpg",
     "category": "Pantry",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Penzeys blend for fish, vegetables, and dips.",
     "notes": "Please get the 1/2 cup jar (net 1.4 oz).",
     "added": "2026-11-18",
@@ -316,7 +316,7 @@ window.WISHLIST = [
     "store": "Penzeys",
     "image": "https://www.penzeys.com/media/2147/paprika_smoked_pot.jpg",
     "category": "Pantry",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Spanish-style paprika smoked over oak.",
     "notes": "Please get the 1/2 cup jar (net 1.4 oz).",
     "added": "2026-11-18",
@@ -334,7 +334,7 @@ window.WISHLIST = [
     "store": "Penzeys",
     "image": "https://www.penzeys.com/media/2310/szechuanpeppersalt_pot_13oz.jpg",
     "category": "Pantry",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Szechuan peppercorns blended with salt.",
     "notes": "Please get the 1/2 cup jar (net 1.4 oz).",
     "added": "2026-11-18",
@@ -353,7 +353,7 @@ window.WISHLIST = [
     "price": 7.99,
     "image": "https://m.media-amazon.com/images/I/41sEkxPKlSL._AC_SL1500_.jpg",
     "category": "Home & Holiday",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Weather-proof powder-coated metal yard flag stand with clip and stopper.",
     "added": "2026-11-18"
   },
@@ -365,7 +365,7 @@ window.WISHLIST = [
     "price": 45,
     "image": "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202642/0161/solar-outdoor-lit-dandelion-led-lawn-stakes-9-c.jpg",
     "category": "Home & Holiday",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Solar LED dandelion stakes for the garden.",
     "added": "2026-11-18"
   },
@@ -377,7 +377,7 @@ window.WISHLIST = [
     "price": 96,
     "image": "https://images.lumens.com/is/image/Lumens/AILP311315_alt09?wid=800&fmt=jpg",
     "category": "Home & Holiday",
-    "priority": "high",
+    "priority": "top",
     "summary": "Cordless rechargeable table lamp by Zafferano America.",
     "notes": "Comes in 10 finishes; the page defaults to Black.",
     "details": [
@@ -396,7 +396,7 @@ window.WISHLIST = [
     "price": 40,
     "image": "https://bkstr.scene7.com/is/image/Bkstr/1545-RICE-PATCH-Off-White?wid=800&fmt=jpg",
     "category": "Rice Owls",
-    "priority": "high",
+    "priority": "top",
     "summary": "No Rivals cotton cap with an Owls patch.",
     "details": [
       [
@@ -418,7 +418,7 @@ window.WISHLIST = [
     "price": 32,
     "image": "https://bkstr.scene7.com/is/image/Bkstr/1545-HTA-387M-EO-Navy?wid=800&fmt=jpg",
     "category": "Rice Owls",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Legacy cotton cap, made in USA.",
     "details": [
       [
@@ -464,7 +464,7 @@ window.WISHLIST = [
     "price": 15,
     "image": "https://bkstr.scene7.com/is/image/Bkstr/1545-SSP01-M-Navy?wid=800&fmt=jpg",
     "category": "Rice Owls",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Navy Owls pennant.",
     "details": [
       [
@@ -482,7 +482,7 @@ window.WISHLIST = [
     "price": 85,
     "image": "https://bkstr.scene7.com/is/image/Bkstr/1545-M51840-E00100-White-Grey?wid=800&fmt=jpg",
     "category": "Rice Owls",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Nike stripe polo in Rice colors.",
     "notes": "Color: White/Grey. Size: Medium",
     "details": [
@@ -502,10 +502,22 @@ window.WISHLIST = [
     "title": "Rustic Metal Flower Wind Spinner, Kinetic Garden Sculpture",
     "url": "https://www.etsy.com/listing/4601336149/rustic-metal-flower-wind-spinner-kinetic",
     "store": "Etsy",
-    "image": "",
+    "price": 174.4,
+    "image": "https://i.etsystatic.com/67750092/r/il/97374e/8841684068/il_794xN.8841684068_9v40.jpg",
+    "images": [
+      "https://i.etsystatic.com/67750092/r/il/a5fa95/8889461351/il_794xN.8889461351_oct7.jpg",
+      "https://i.etsystatic.com/67750092/r/il/dc7eff/8889461459/il_794xN.8889461459_ew55.jpg",
+      "https://i.etsystatic.com/67750092/r/il/d08827/8841684504/il_794xN.8841684504_8kig.jpg"
+    ],
     "category": "Home & Holiday",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Kinetic metal flower wind spinner for the yard.",
+    "details": [
+      ["Seller", "ArtisanMetalART"],
+      ["Size", "83\"H × 24\"W"],
+      ["Material", "Metal with a natural rust finish"],
+      ["Weight", "34 oz"]
+    ],
     "added": "2026-11-18"
   },
   {
@@ -513,10 +525,22 @@ window.WISHLIST = [
     "title": "Twist & Bloom Metal Flower Wind Spinner",
     "url": "https://www.etsy.com/listing/4574297351/twist-bloom-metal-flower-wind-spinner",
     "store": "Etsy",
-    "image": "",
+    "price": 138.4,
+    "image": "https://i.etsystatic.com/67750092/r/il/643ce2/8843724382/il_794xN.8843724382_m4ox.jpg",
+    "images": [
+      "https://i.etsystatic.com/67750092/r/il/3bb7fd/8843724452/il_794xN.8843724452_6cry.jpg",
+      "https://i.etsystatic.com/67750092/r/il/b6d6a8/8891500251/il_794xN.8891500251_jl35.jpg",
+      "https://i.etsystatic.com/67750092/r/il/11dd01/8843724984/il_794xN.8843724984_263z.jpg"
+    ],
     "category": "Home & Holiday",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Rustic metal flower wind spinner for the yard.",
+    "notes": "Please choose the Small size (71\"H × 22\"W), $138.40.",
+    "details": [
+      ["Seller", "ArtisanMetalART"],
+      ["Size", "Small: 71\"H × 22\"W (Large is 105\"H × 34\"W)"],
+      ["Material", "Metal with a rust finish"]
+    ],
     "added": "2026-11-18"
   },
   {
@@ -527,7 +551,7 @@ window.WISHLIST = [
     "price": 12.5,
     "image": "https://cdn-shop.adafruit.com/970x728/5325-12.jpg",
     "category": "Tech",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Tiny Wi-Fi board that will be the brain of my house environmental sensor.",
     "notes": "Part of a DIY environmental sensor for the house I'd love to build. This board reads all the sensors over STEMMA QT and sends the data over Wi-Fi.",
     "details": [
@@ -554,7 +578,7 @@ window.WISHLIST = [
     "price": 49.95,
     "image": "https://cdn-shop.adafruit.com/970x728/5190-06.jpg",
     "category": "Tech",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Measures CO2, temperature, and humidity for my house environmental sensor.",
     "notes": "Part of a DIY environmental sensor for the house I'd love to build. Tracks indoor CO2 so I can see when a room needs fresh air. STEMMA QT / Qwiic version.",
     "details": [
@@ -581,7 +605,7 @@ window.WISHLIST = [
     "price": 44.95,
     "image": "https://cdn-shop.adafruit.com/970x728/4632-10.jpg",
     "category": "Tech",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Particulate sensor for air quality in my house environmental sensor.",
     "notes": "Part of a DIY environmental sensor for the house I'd love to build. Measures dust and smoke particles (PM1.0, PM2.5, PM10). STEMMA QT / Qwiic version.",
     "details": [
@@ -604,7 +628,7 @@ window.WISHLIST = [
     "price": 14.95,
     "image": "https://cdn-shop.adafruit.com/970x728/2652-04.jpg",
     "category": "Tech",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Temperature, humidity, and barometric pressure for my house environmental sensor.",
     "notes": "Part of a DIY environmental sensor for the house I'd love to build. The STEMMA QT version, so no soldering is needed to connect it.",
     "details": [
@@ -627,7 +651,7 @@ window.WISHLIST = [
     "price": 39.5,
     "image": "https://dfimg.dfrobot.com/enshop/image/data/SEN0232/SEN0232_Main_01.jpg",
     "category": "Tech",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Sound level sensor for my house environmental sensor.",
     "notes": "Part of a DIY environmental sensor for the house I'd love to build. Adds noise level (dBA) to the readings.",
     "details": [
@@ -650,7 +674,7 @@ window.WISHLIST = [
     "price": 54.75,
     "image": "../assets/img/wishlist/x-tronic-3020-xts.jpg",
     "category": "Tech",
-    "priority": "high",
+    "priority": "nice",
     "summary": "Soldering station for assembling my house environmental sensor.",
     "notes": "Style: Classic Style, 1 Solder Tip. Needed for the house environmental sensor project: together with the Adafruit boards, sensors, and decibel meter, it makes the whole build possible.",
     "details": [
