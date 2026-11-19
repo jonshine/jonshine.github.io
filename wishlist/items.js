@@ -379,11 +379,15 @@ window.WISHLIST = [
     "category": "Home & Holiday",
     "priority": "top",
     "summary": "Cordless rechargeable table lamp by Zafferano America.",
-    "notes": "Comes in 10 finishes; the page defaults to Black.",
+    "notes": "Comes in 10 finishes. I'd like the black one.",
     "details": [
       [
         "Designer",
         "Federico De Majo"
+      ],
+      [
+        "Color",
+        "Black"
       ]
     ],
     "added": "2026-11-18"
@@ -692,5 +696,313 @@ window.WISHLIST = [
       ]
     ],
     "added": "2026-11-18"
+  },
+  {
+    "id": "bonobos-the-chino-2-0-graphites",
+    "title": "Bonobos The Chino 2.0, Graphites",
+    "url": "https://bonobos.com/products/stretch-washed-chino-graphites-0?variant=48493125763313&color=Graphites&pant-waist=31&pant-fit=Slim&pant-length=28",
+    "store": "Bonobos",
+    "price": 99,
+    "image": "https://bonobos.com/cdn/shop/files/PANT_CHINO-PANT_BPT10629S1052G_1_cbcc27e1-d1e4-4614-a11d-0c38d1b38227.jpg?width=800",
+    "category": "Apparel",
+    "priority": "high",
+    "summary": "Stretch washed chino in Graphites.",
+    "notes": "Waist 31, Slim fit, length 28.",
+    "details": [
+      [
+        "Color",
+        "Graphites"
+      ],
+      [
+        "Waist",
+        "31"
+      ],
+      [
+        "Fit",
+        "Slim"
+      ],
+      [
+        "Length",
+        "28"
+      ]
+    ],
+    "added": "2026-11-19"
+  },
+  {
+    "id": "bonobos-the-chino-2-0-after-midnights",
+    "title": "Bonobos The Chino 2.0, After Midnights",
+    "url": "https://bonobos.com/products/stretch-washed-chino-after-midnights-0?variant=48493072679153&color=After+Midnights&pant-waist=31&pant-fit=Slim&pant-length=28",
+    "store": "Bonobos",
+    "price": 99,
+    "image": "https://bonobos.com/cdn/shop/files/PANT_CHINO-PANT_BPT10629S1051G_1_b71e83ca-a3ff-42c6-823d-ed65a12071fe.jpg?width=800",
+    "category": "Apparel",
+    "priority": "high",
+    "summary": "Stretch washed chino in After Midnights.",
+    "notes": "Waist 31, Slim fit, length 28.",
+    "details": [
+      [
+        "Color",
+        "After Midnights"
+      ],
+      [
+        "Waist",
+        "31"
+      ],
+      [
+        "Fit",
+        "Slim"
+      ],
+      [
+        "Length",
+        "28"
+      ]
+    ],
+    "added": "2026-11-19"
+  },
+  {
+    "id": "bonobos-the-chino-2-0-congos",
+    "title": "Bonobos The Chino 2.0, Congos",
+    "url": "https://bonobos.com/products/stretch-washed-chino-congos-0?variant=48493274005745&color=Congos&pant-waist=31&pant-fit=Slim&pant-length=28",
+    "store": "Bonobos",
+    "price": 99,
+    "image": "https://bonobos.com/cdn/shop/files/PANT_CHINO-PANT_BPT10629SOL001_1_1a4f3af6-d5b7-4053-82b4-f4976875dd78.jpg?width=800",
+    "category": "Apparel",
+    "priority": "high",
+    "summary": "Stretch washed chino in Congos.",
+    "notes": "Waist 31, Slim fit, length 28.",
+    "details": [
+      [
+        "Color",
+        "Congos"
+      ],
+      [
+        "Waist",
+        "31"
+      ],
+      [
+        "Fit",
+        "Slim"
+      ],
+      [
+        "Length",
+        "28"
+      ]
+    ],
+    "added": "2026-11-19"
+  },
+  {
+    "id": "luxury-touch-t-shirt",
+    "title": "Luxury-Touch T-Shirt",
+    "url": "https://bananarepublic.gap.com/browse/product.do?pid=811426012&vid=1&pcid=80117&cid=80117&nav=meganav%3AMEN%3AMEN%27S+CLOTHING%3AT-Shirts#pdp-page-content",
+    "store": "Banana Republic",
+    "price": 50,
+    "image": "https://bananarepublic.gap.com/webcontent/0060/356/962/cn60356962.jpg",
+    "images": [
+      "https://bananarepublic.gap.com/webcontent/0057/437/438/cn57437438.jpg",
+      "https://bananarepublic.gap.com/webcontent/0057/437/506/cn57437506.jpg"
+    ],
+    "category": "Apparel",
+    "priority": "high",
+    "summary": "Soft, dressed-up crew-neck tee in Luxury Touch fabric.",
+    "notes": "Size Medium, Regular fit. Color: Black (as shown on the linked page).",
+    "details": [
+      [
+        "Size",
+        "Medium"
+      ],
+      [
+        "Fit",
+        "Regular"
+      ],
+      [
+        "Color",
+        "Black"
+      ]
+    ],
+    "added": "2026-11-19"
+  },
+  {
+    "id": "silky-cotton-t-shirt",
+    "title": "Silky Cotton T-Shirt",
+    "url": "https://bananarepublic.gap.com/browse/product.do?pid=8944400420002&vid=1&pcid=80117&cid=80117&nav=meganav%3AMEN%3AMEN%27S+CLOTHING%3AT-Shirts#pdp-page-content",
+    "store": "Banana Republic",
+    "price": 29.99,
+    "image": "https://bananarepublic.gap.com/webcontent/0062/714/850/cn62714850.jpg",
+    "images": [
+      "https://bananarepublic.gap.com/webcontent/0062/618/318/cn62618318.jpg",
+      "https://bananarepublic.gap.com/webcontent/0062/618/340/cn62618340.jpg"
+    ],
+    "category": "Apparel",
+    "priority": "high",
+    "summary": "Classic crew-neck tee in a lightweight silky cotton.",
+    "notes": "Size Medium, Regular fit. Color: Navy Blue (as shown on the linked page).",
+    "details": [
+      [
+        "Size",
+        "Medium"
+      ],
+      [
+        "Fit",
+        "Regular"
+      ],
+      [
+        "Color",
+        "Navy Blue"
+      ]
+    ],
+    "added": "2026-11-19"
+  },
+  {
+    "id": "lightweight-cotton-crew-neck-t-shirt",
+    "title": "Lightweight Cotton Crew-Neck T-Shirt",
+    "url": "https://bananarepublic.gap.com/browse/product.do?pid=865479072&vid=1&pcid=80117&cid=80117&nav=meganav%3AMEN%3AMEN%27S+CLOTHING%3AT-Shirts#pdp-page-content",
+    "store": "Banana Republic",
+    "price": 40,
+    "image": "https://bananarepublic.gap.com/webcontent/0061/412/712/cn61412712.jpg",
+    "images": [
+      "https://bananarepublic.gap.com/webcontent/0061/223/837/cn61223837.jpg",
+      "https://bananarepublic.gap.com/webcontent/0061/223/835/cn61223835.jpg"
+    ],
+    "category": "Apparel",
+    "priority": "high",
+    "summary": "Garment-dyed, ultra-light cotton tee.",
+    "notes": "Size Medium, Regular fit. Color: Navy Blue (as shown on the linked page).",
+    "details": [
+      [
+        "Size",
+        "Medium"
+      ],
+      [
+        "Fit",
+        "Regular"
+      ],
+      [
+        "Color",
+        "Navy Blue"
+      ]
+    ],
+    "added": "2026-11-19"
+  },
+  {
+    "id": "wool-blend-fair-isle-socks",
+    "title": "Wool-blend Fair Isle Socks",
+    "url": "https://www.jcrew.com/p/mens/categories/accessories/wool-blend-fair-isle-socks/CY216?display=standard&fit=Classic&color_name=ivory-black-multi&colorProductCode=CY216",
+    "store": "J.Crew",
+    "price": 29.5,
+    "image": "https://www.jcrew.com/s7-img-facade/CY216_PP8723?fmt=jpeg&wid=800",
+    "category": "Apparel",
+    "priority": "high",
+    "summary": "Fair Isle wool-blend socks in ivory and black.",
+    "notes": "One size.",
+    "details": [
+      [
+        "Color",
+        "Ivory Black Multi"
+      ],
+      [
+        "Size",
+        "One size"
+      ]
+    ],
+    "added": "2026-11-19"
+  },
+  {
+    "id": "dress-socks-in-dots",
+    "title": "Dress Socks in Dots",
+    "url": "https://www.jcrew.com/p/mens/categories/accessories/socks/dress-sock/dress-socks-in-dots/BP949?display=standard&fit=Classic&color_name=navy-lavender-dot&colorProductCode=BP949",
+    "store": "J.Crew",
+    "price": 24.5,
+    "image": "https://www.jcrew.com/s7-img-facade/BP949_PP6243?fmt=jpeg&wid=800",
+    "category": "Apparel",
+    "priority": "high",
+    "summary": "Dress socks with a navy and lavender dot pattern.",
+    "notes": "Color as linked: Navy Lavender Dot.",
+    "details": [
+      [
+        "Color",
+        "Navy Lavender Dot"
+      ]
+    ],
+    "added": "2026-11-19"
+  },
+  {
+    "id": "druthers-merino-wool-boot-socks",
+    "title": "Druthers Merino Wool Boot Socks",
+    "url": "https://www.jcrew.com/p/mens/categories/accessories/socks/heavyweight/druthers-merino-wool-boot-socks/M8807?display=standard&fit=Classic&color_name=black&colorProductCode=M8807",
+    "store": "J.Crew",
+    "price": 20,
+    "image": "https://www.jcrew.com/s7-img-facade/M8807_BK0001?fmt=jpeg&wid=800",
+    "category": "Apparel",
+    "priority": "high",
+    "summary": "Heavyweight merino wool boot socks.",
+    "notes": "Color as linked: Black.",
+    "details": [
+      [
+        "Color",
+        "Black"
+      ]
+    ],
+    "added": "2026-11-19"
+  },
+  {
+    "id": "patterned-dress-socks",
+    "title": "Patterned Dress Socks",
+    "url": "https://www.jcrew.com/p/mens/categories/accessories/socks/dress-sock/patterned-dress-socks/CO543?display=standard&fit=Classic&color_name=black&colorProductCode=CO543",
+    "store": "J.Crew",
+    "price": 24.5,
+    "image": "https://www.jcrew.com/s7-img-facade/CO543_BK0001?fmt=jpeg&wid=800",
+    "category": "Apparel",
+    "priority": "high",
+    "summary": "Patterned dress socks in black.",
+    "notes": "Color as linked: Black.",
+    "details": [
+      [
+        "Color",
+        "Black"
+      ]
+    ],
+    "added": "2026-11-19"
+  },
+  {
+    "id": "microstripe-socks",
+    "title": "Microstripe Socks",
+    "url": "https://www.jcrew.com/p/mens/categories/accessories/socks/lightweight/microstripe-socks/CO544?display=standard&fit=Classic&color_name=sand-dollar&colorProductCode=CO544",
+    "store": "J.Crew",
+    "price": 19.5,
+    "image": "https://www.jcrew.com/s7-img-facade/CO544_NA0292?fmt=jpeg&wid=800",
+    "category": "Apparel",
+    "priority": "high",
+    "summary": "Lightweight microstripe socks.",
+    "notes": "Color as linked: Sand Dollar.",
+    "details": [
+      [
+        "Color",
+        "Sand Dollar"
+      ]
+    ],
+    "added": "2026-11-19"
+  },
+  {
+    "id": "camden-leather-penny-loafers-with-leather-soles",
+    "title": "Camden Leather Penny Loafers with Leather Soles",
+    "url": "https://www.jcrew.com/p/mens/categories/shoes/dress-shoes/camden-loafers-with-leather-soles/BJ009?display=standard&fit=Classic&color_name=whiskey&colorProductCode=BJ009",
+    "store": "J.Crew",
+    "price": 258,
+    "image": "https://www.jcrew.com/s7-img-facade/BJ009_PP3650?fmt=jpeg&wid=800",
+    "category": "Apparel",
+    "priority": "high",
+    "summary": "Leather penny loafers with an unlined interior and leather sole.",
+    "notes": "Size 9.5. Color: Whiskey.",
+    "details": [
+      [
+        "Size",
+        "9.5"
+      ],
+      [
+        "Color",
+        "Whiskey"
+      ]
+    ],
+    "added": "2026-11-19"
   }
 ];
