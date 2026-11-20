@@ -1012,7 +1012,7 @@ window.WISHLIST = [
     "store": "Leatherman",
     "price": 99.95,
     "image": "https://www.leatherman.com/cdn/shop/files/skeletool_cx_20260402201813.png?crop=center&height=1200&v=1776173090&width=1200",
-    "category": "Rich",
+    "category": "Tech",
     "priority": "nice",
     "summary": "Lightweight 7-in-1 stainless steel multi-tool.",
     "added": "2026-11-20"
@@ -1024,7 +1024,7 @@ window.WISHLIST = [
     "store": "The Home Depot",
     "price": 69.97,
     "image": "https://images.thdstatic.com/productImages/be985099-f9af-4b4c-9240-ebba48f149fb/svn/milwaukee-headlamps-2163-21-64_1000.jpg",
-    "category": "Rich",
+    "category": "Tech",
     "priority": "nice",
     "summary": "Rechargeable 600-lumen LED headlamp, model 2163-21.",
     "added": "2026-11-20"
@@ -1036,7 +1036,7 @@ window.WISHLIST = [
     "store": "Amazon",
     "price": 13.23,
     "image": "https://m.media-amazon.com/images/I/61QW2tcF3+L._AC_SL1500_.jpg",
-    "category": "Rich",
+    "category": "Kitchen",
     "priority": "nice",
     "summary": "Stainless steel 5 quart mixing bowl.",
     "added": "2026-11-20"
@@ -1047,8 +1047,8 @@ window.WISHLIST = [
     "url": "https://www.williams-sonoma.com/products/reversible-meat-tenderizer/?sku=6017792",
     "store": "Williams Sonoma",
     "price": 44.95,
-    "image": "https://assets.wsimgs.com/wsimgs/ab/images/dp/wcm/202647/0006/img118c.jpg",
-    "category": "Rich",
+    "image": "../assets/img/wishlist/reversible-meat-tenderizer.jpg",
+    "category": "Kitchen",
     "priority": "nice",
     "summary": "Two-sided meat tenderizer.",
     "added": "2026-11-20"
@@ -1060,7 +1060,7 @@ window.WISHLIST = [
     "store": "Amazon",
     "price": 20.0,
     "image": "https://m.media-amazon.com/images/I/71Y+XhJd2DL._AC_SL1500_.jpg",
-    "category": "Stocking Stuffers",
+    "category": "Rich",
     "priority": "nice",
     "summary": "Set of 16 artist pastels.",
     "added": "2026-11-20"
@@ -1072,7 +1072,7 @@ window.WISHLIST = [
     "store": "Amazon",
     "price": 50.14,
     "image": "https://m.media-amazon.com/images/I/61IOWCEaHUL._AC_SL1000_.jpg",
-    "category": "Stocking Stuffers",
+    "category": "Rich",
     "priority": "nice",
     "summary": "Artist-grade, made in Japan: 48 opaque colors with a palette and color chart.",
     "added": "2026-11-20"
@@ -1084,7 +1084,7 @@ window.WISHLIST = [
     "store": "Amazon",
     "price": 47.96,
     "image": "https://m.media-amazon.com/images/I/61KhKqas-kL._AC_SL1500_.jpg",
-    "category": "Stocking Stuffers",
+    "category": "Rich",
     "priority": "nice",
     "summary": "1.14\" IPS screen, preloaded and uploadable videos, USB-C rechargeable.",
     "added": "2026-11-20"
@@ -1096,7 +1096,7 @@ window.WISHLIST = [
     "store": "Amazon",
     "price": 34.99,
     "image": "https://m.media-amazon.com/images/I/81knLBH5eoL._AC_SL1500_.jpg",
-    "category": "Stocking Stuffers",
+    "category": "Rich",
     "priority": "nice",
     "summary": "Executive stress relief desk toy.",
     "added": "2026-11-20"
