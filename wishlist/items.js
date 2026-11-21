@@ -20,7 +20,7 @@
  *             store (right-click the product photo > Copy Image Address)
  *             or a local file like "../assets/img/wishlist/skillet.jpg".
  *  images     optional list of extra images for the detail page.
- *  category   used for the filter buttons ("Kitchen", "Tech", ...).
+ *  category   used for the filter buttons ("Kitchen", "Crafts", ...).
  *  priority   "top", "high", or "nice". "top" items are featured
  *             in the spotlight section at the top of the page.
  *  summary    one line shown under the title.
@@ -554,7 +554,7 @@ window.WISHLIST = [
     "store": "Adafruit",
     "price": 12.5,
     "image": "https://cdn-shop.adafruit.com/970x728/5325-12.jpg",
-    "category": "Tech",
+    "category": "Crafts",
     "priority": "nice",
     "summary": "Tiny Wi-Fi board that will be the brain of my house environmental sensor.",
     "notes": "Part of a DIY environmental sensor for the house I'd love to build. This board reads all the sensors over STEMMA QT and sends the data over Wi-Fi.",
@@ -581,7 +581,7 @@ window.WISHLIST = [
     "store": "Adafruit",
     "price": 49.95,
     "image": "https://cdn-shop.adafruit.com/970x728/5190-06.jpg",
-    "category": "Tech",
+    "category": "Crafts",
     "priority": "nice",
     "summary": "Measures CO2, temperature, and humidity for my house environmental sensor.",
     "notes": "Part of a DIY environmental sensor for the house I'd love to build. Tracks indoor CO2 so I can see when a room needs fresh air. STEMMA QT / Qwiic version.",
@@ -608,7 +608,7 @@ window.WISHLIST = [
     "store": "Adafruit",
     "price": 44.95,
     "image": "https://cdn-shop.adafruit.com/970x728/4632-10.jpg",
-    "category": "Tech",
+    "category": "Crafts",
     "priority": "nice",
     "summary": "Particulate sensor for air quality in my house environmental sensor.",
     "notes": "Part of a DIY environmental sensor for the house I'd love to build. Measures dust and smoke particles (PM1.0, PM2.5, PM10). STEMMA QT / Qwiic version.",
@@ -631,7 +631,7 @@ window.WISHLIST = [
     "store": "Adafruit",
     "price": 14.95,
     "image": "https://cdn-shop.adafruit.com/970x728/2652-04.jpg",
-    "category": "Tech",
+    "category": "Crafts",
     "priority": "nice",
     "summary": "Temperature, humidity, and barometric pressure for my house environmental sensor.",
     "notes": "Part of a DIY environmental sensor for the house I'd love to build. The STEMMA QT version, so no soldering is needed to connect it.",
@@ -654,7 +654,7 @@ window.WISHLIST = [
     "store": "DFRobot",
     "price": 39.5,
     "image": "https://dfimg.dfrobot.com/enshop/image/data/SEN0232/SEN0232_Main_01.jpg",
-    "category": "Tech",
+    "category": "Crafts",
     "priority": "nice",
     "summary": "Sound level sensor for my house environmental sensor.",
     "notes": "Part of a DIY environmental sensor for the house I'd love to build. Adds noise level (dBA) to the readings.",
@@ -677,7 +677,7 @@ window.WISHLIST = [
     "store": "Amazon",
     "price": 54.75,
     "image": "../assets/img/wishlist/x-tronic-3020-xts.jpg",
-    "category": "Tech",
+    "category": "Crafts",
     "priority": "nice",
     "summary": "Soldering station for assembling my house environmental sensor.",
     "notes": "Style: Classic Style, 1 Solder Tip. Needed for the house environmental sensor project: together with the Adafruit boards, sensors, and decibel meter, it makes the whole build possible.",
@@ -1012,7 +1012,7 @@ window.WISHLIST = [
     "store": "Leatherman",
     "price": 99.95,
     "image": "https://www.leatherman.com/cdn/shop/files/skeletool_cx_20260402201813.png?crop=center&height=1200&v=1776173090&width=1200",
-    "category": "Tech",
+    "category": "Tools",
     "priority": "nice",
     "summary": "Lightweight 7-in-1 stainless steel multi-tool.",
     "added": "2026-11-20"
@@ -1024,7 +1024,7 @@ window.WISHLIST = [
     "store": "The Home Depot",
     "price": 69.97,
     "image": "https://images.thdstatic.com/productImages/be985099-f9af-4b4c-9240-ebba48f149fb/svn/milwaukee-headlamps-2163-21-64_1000.jpg",
-    "category": "Tech",
+    "category": "Tools",
     "priority": "nice",
     "summary": "Rechargeable 600-lumen LED headlamp, model 2163-21.",
     "added": "2026-11-20"
@@ -1240,5 +1240,171 @@ window.WISHLIST = [
     "priority": "nice",
     "summary": "Pocket-size Pictionary.",
     "added": "2026-11-20"
+  },
+  {
+    "id": "nappa-leather-rfid-blocking-passport-holder-navy",
+    "title": "Nappa Leather RFID Blocking Passport Holder in Navy",
+    "url": "https://www.quince.com/unisex/leather-rfid-blocking-passport-holder?color=navy",
+    "store": "Quince",
+    "price": 29.9,
+    "image": "https://images.quince.com/6iLnrgcW7y5jlmGEzAbL83/72d420270b547b55dda85b4b1b59f327/U-SLG2-2-NVY_192402.jpg?fm=jpg&q=90&w=800",
+    "category": "Rich",
+    "priority": "nice",
+    "summary": "Top-grain nappa leather passport holder with RFID blocking.",
+    "notes": "Color: Navy.",
+    "details": [
+      [
+        "Color",
+        "Navy"
+      ]
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "calder-pinwheel-and-flow-500-piece-puzzle",
+    "title": "Calder: Pinwheel and Flow 500-Piece Puzzle",
+    "url": "https://mfashop.mfah.org/collections/office-1/products/pinwheel-and-flow-500-pc-puzzle",
+    "store": "MFAH Shop",
+    "price": 24.0,
+    "image": "https://mfashop.mfah.org/cdn/shop/files/Copyofcategoryimagesforwebsite-2026-02-24T170701.002.jpg?v=1771974444&width=800",
+    "category": "Stocking Stuffers",
+    "priority": "nice",
+    "summary": "500-piece jigsaw of Alexander Calder's Pinwheel and Flow (1958).",
+    "added": "2026-11-21"
+  },
+  {
+    "id": "kitchendao-2-in-1-magnetic-bottle-opener",
+    "title": "KITCHENDAO 2-in-1 Bottle Opener with Magnet",
+    "url": "https://www.amazon.com/dp/B0GHRP1W5D",
+    "store": "Amazon",
+    "price": 7.19,
+    "image": "https://m.media-amazon.com/images/I/41gDDh+uPNL._AC_SL1500_.jpg",
+    "category": "Stocking Stuffers",
+    "priority": "nice",
+    "summary": "Stainless steel bottle opener with a magnetic cap catcher and soft-touch handle.",
+    "added": "2026-11-21"
+  },
+  {
+    "id": "twist-hexagon-portable-table-lamp-walnut",
+    "title": "Twist Hexagon Portable Table Lamp, Walnut",
+    "url": "https://store.moma.org/collections/practical-gifts/products/twist-hexagon-portable-table-lamp",
+    "store": "MoMA Design Store",
+    "price": 50.0,
+    "image": "https://store.moma.org/cdn/shop/files/fdd05ed4-e1e6-4aea-a616-cb0e6fd326f7.jpg?v=1775225544&width=800",
+    "category": "Home & Holiday",
+    "priority": "nice",
+    "summary": "A flat walnut hexagon unfolds into a portable lamp with a twisted Tyvek paper shade.",
+    "notes": "Finish: Walnut.",
+    "details": [
+      [
+        "Finish",
+        "Walnut"
+      ]
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "mens-european-linen-organic-cotton-jersey-polo-navy",
+    "title": "Men's European Linen / Organic Cotton Jersey Polo in Navy",
+    "url": "https://www.quince.com/men/men-s-100-european-linen-jersey-polo?color=navy&gender=men&size=m",
+    "store": "Quince",
+    "price": 45.0,
+    "image": "https://images.quince.com/4ydaIrneVhF9zWYwRZNuUC/65085244d543d3d1c201223b0f4b9db0/M-LKT-80-NVY-45509_EDITED_1.jpg?fm=jpg&q=90&w=800",
+    "category": "Apparel",
+    "priority": "nice",
+    "summary": "Linen and organic cotton jersey polo.",
+    "notes": "Size M. Color: Navy.",
+    "details": [
+      [
+        "Size",
+        "M"
+      ],
+      [
+        "Color",
+        "Navy"
+      ]
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "european-linen-sheet-set-pencil-stripe-king",
+    "title": "100% European Linen Sheet Set in Pencil Stripe",
+    "url": "https://www.quince.com/home/sheets/linen-sheet-set?color=pencil-stripe&gender=men&size=king",
+    "store": "Quince",
+    "price": 204.0,
+    "image": "https://images.quince.com/1wfdN6cgXN7We6aMPmQyyo/9508156e9068e4d3c6d36f593aaf280e/U--BEDD-174-PEN-103_EDITED.jpg?fm=jpg&q=90&w=800",
+    "category": "Home & Holiday",
+    "priority": "nice",
+    "summary": "Relaxed, textured European linen sheet set.",
+    "notes": "Size King. Color: Pencil Stripe.",
+    "details": [
+      [
+        "Size",
+        "King"
+      ],
+      [
+        "Color",
+        "Pencil Stripe"
+      ]
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "speedball-advanced-all-in-one-screen-printing-kit",
+    "title": "Speedball Advanced All-in-One Screen Printing Kit",
+    "url": "https://www.michaels.com/product/speedball-advanced-allinone-screen-printing-kit-10231294",
+    "store": "Michaels",
+    "price": 144.99,
+    "image": "https://imgs.michaels.com/renditions/48e037ba-252f-4634-9b9d-b9f68e2339c6_thumbnail.jpg",
+    "category": "Crafts",
+    "priority": "nice",
+    "summary": "Complete kit for the photo emulsion screen printing method.",
+    "added": "2026-11-21"
+  },
+  {
+    "id": "shibumi-shade-classic-quiet-canopy-south-beach",
+    "title": "Shibumi Shade Classic with Quiet Canopy",
+    "url": "https://shibumishade.com/products/shibumi-shade-with-quiet-canopy?variant=67305785262451",
+    "store": "Shibumi Shade",
+    "price": 298.0,
+    "image": "https://cdn.shopify.com/s/files/1/0068/5015/0436/files/Classic-SouthBeachSunset_OceanChairs_Studio_c3872930-9340-431a-81da-0904421fdd20.jpg?v=1793803400&width=800",
+    "category": "Outdoors",
+    "priority": "top",
+    "summary": "Wind-powered beach shade that sets up in minutes and packs down small, with a quieter stretch canopy.",
+    "notes": "Size: Classic. Color: South Beach.",
+    "details": [
+      [
+        "Size",
+        "Classic"
+      ],
+      [
+        "Color",
+        "South Beach"
+      ]
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "id": "tommy-bahama-easy-out-backpack-beach-chair-2-pack",
+    "title": "Tommy Bahama Easy-Out Backpack Beach Chair, 2-Pack",
+    "url": "https://www.amazon.com/dp/B0CWWC57G8",
+    "store": "Amazon",
+    "price": 127.49,
+    "image": "https://m.media-amazon.com/images/I/81NRnlzDzWL._AC_SL1500_.jpg",
+    "category": "Outdoors",
+    "priority": "nice",
+    "summary": "Lightweight folding backpack chairs with 4-position recline, cup holder and side pouch.",
+    "notes": "2-pack, Blue Tropical Leaves.",
+    "details": [
+      [
+        "Pack",
+        "2"
+      ],
+      [
+        "Pattern",
+        "Blue Tropical Leaves"
+      ]
+    ],
+    "added": "2026-11-21"
   }
 ];
